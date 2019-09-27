@@ -30,12 +30,12 @@ export default new Router({
 				    name: 'About',
 				    component: About,
 				    children:[
-			      	{
-				      	path: '/Abc',
-				      	name: 'Abc',
-				      	component: ImportAbc
-			    	}
-			      ]
+				      	{
+					      	path: '/Abc',
+					      	name: 'Abc',
+					      	component: ImportAbc
+				    	}
+			      	]
 			    },
 			    {
 			    	path:'/product',
@@ -44,12 +44,12 @@ export default new Router({
 			    	children:[
 			    		{
 			    			path:'/product/pro1',
-					    	name:'pro1',
+					    	name:'Pro1',
 					    	component:Pro1
 			    		},
 			    		{
 			    			path:'/product/pro2',
-					    	name:'pro2',
+					    	name:'Pro2',
 					    	component:Pro2
 			    		}
 			    	]
